@@ -1,0 +1,580 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/ContentsMerged.css" />
+    <title>Class GenericClass</title>
+</head>
+<body><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Class AppCanvas</div>
+    <div id="Contents" />
+
+    
+ AppCanvas provides a drawable surface used by BOOSE commands.
+ It stores the pen position, color settings, and supports drawing
+ basic geometric shapes directly onto an internal bitmap.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public class AppCanvas : ICanvas</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Constructor AppCanvas</div>
+    <div id="Contents" />
+
+    
+ Builds a new canvas using the default bitmap size
+ and prepares the drawing surface.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public AppCanvas()</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Property Xpos</div>
+    <div id="Contents" />
+
+    
+ Current X coordinate of the pen. Attempting to set a
+ value outside the surface boundaries displays an error.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public int Xpos</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Property Ypos</div>
+    <div id="Contents" />
+
+    
+ Current Y coordinate of the pen. Invalid values trigger
+ an error message instead of updating the state.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public int Ypos</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Property PenColour</div>
+    <div id="Contents" />
+
+    
+ Determines the current pen color used when drawing.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public object PenColour</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method WriteExceptionMessage</div>
+    <div id="Contents" />
+
+    
+ Places an error message directly onto the canvas display.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public void WriteExceptionMessage(string message)</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method Circle</div>
+    <div id="Contents" />
+
+    
+ Draws a circle centered at the pen’s current location.
+ The radius must be non-negative and within canvas limits.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public void Circle(int radius, bool filled)</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method DrawTo</div>
+    <div id="Contents" />
+
+    
+ Draws a straight line from the pen’s position to another point.
+ Coordinates must be inside the canvas bounds.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public void DrawTo(int toX, int toY)</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method getBitmap</div>
+    <div id="Contents" />
+
+    
+ Retrieves the rendered image from the canvas.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public object getBitmap() =&gt; bmap</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method Clear</div>
+    <div id="Contents" />
+
+    
+ Wipes the canvas by repainting it with a gray background.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public void Clear()</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method MoveTo</div>
+    <div id="Contents" />
+
+    
+ Moves the pen without drawing a line.
+ Ensures the new position lies within valid space.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public void MoveTo(int x, int y)</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method Rect</div>
+    <div id="Contents" />
+
+    
+ Draws a rectangle using the current pen settings.
+ Can optionally be filled.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public void Rect(int width, int height, bool filled)</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method Set</div>
+    <div id="Contents" />
+
+    
+ Resizes the drawable surface boundaries and resets
+ the pen to the origin.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public void Set(int xsize, int ysize)</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method SetColour</div>
+    <div id="Contents" />
+
+    
+ Changes the drawing color using RGB component values.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public void SetColour(int red, int green, int blue)</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method Tri</div>
+    <div id="Contents" />
+
+    
+ Draws a filled triangle using width and height values.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public void Tri(int width, int height)</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method WriteText</div>
+    <div id="Contents" />
+
+    
+ Places text on the canvas at the pen's current position.
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public void WriteText(string text)</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+</p><hr></hr><p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method Reset</div>
+    <div id="Contents" />
+
+    
+ Moves the pen back to the top-left origin (0,0).
+ 
+        <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\user\AppData\Roaming\DocPreview\1.6.2.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+    public void Reset()</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+</p>
+</body>
+</html>
